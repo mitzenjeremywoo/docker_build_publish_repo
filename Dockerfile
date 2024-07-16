@@ -11,7 +11,6 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* &&  \
     rm -rf /tmp/* /var/tmp/*
 
-    
 RUN dotnet tool install --global dotnet-dump && \
     dotnet tool install --global dotnet-trace && \
     dotnet tool install --global dotnet-gcdump && \ 
